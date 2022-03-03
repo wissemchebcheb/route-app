@@ -13,7 +13,7 @@ export default function Profil() {
 
   return (
     <>
-      <h1>Bonjour {auth.user} </h1>
+      <h1 style={{textAlign:"center"}}>Bonjour {auth.user} </h1>
       <button onClick={deconnexion}>Se déconnecter</button>
       {/* {auth.user&&(
         <button onClick={deconnexion}>Se déconnecter</button>
